@@ -1,8 +1,5 @@
 <?php 
 
-// load functions
-require_once('application/functions/functions.php');
-
 // load abstract controller
 require_once('application/core/controller.php');
 

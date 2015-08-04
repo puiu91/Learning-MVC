@@ -12,11 +12,6 @@ function contains($needle, $haystack)
 	return strpos($haystack, $needle) !== false;
 }
 
-/* 
-     * filtering an array 
-     */ 
-    
-
 /**
  * Filters an array and returns the values which match the requested value at runtime
  * Similar to built-in array_filter but for any array (any dimension)

@@ -1,15 +1,13 @@
 <?php 
 
-// load functions
-require_once('application/functions/functions.php');
-
 // load abstract controller
-require_once('application/core/controller.php');
+require(APP . '/core/controller.php');
 
 // load model
-require_once('application/models/formValidator.php');
+require(APP . '/models/formValidator.php');
 
 /**
+ * Controller for forms
  * 
  */
 class FormController extends Controller

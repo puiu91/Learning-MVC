@@ -6,6 +6,9 @@
  */
 abstract class Model {
 
+	// public $model;
+
+	// public function loadModel() {}
 }
 
 ?>

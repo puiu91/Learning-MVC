@@ -1,8 +1,5 @@
 <?php
 
-// load functions
-require_once('application/functions/functions.php');
-
 /**
  * Class that validates form input fields
  * 

@@ -1,0 +1,11 @@
+http://fabien.potencier.org/what-is-dependency-injection.html
+
+
+
+
+http://phpbridge.org/intro-to-php/creating_a_data_class?back=creating_a_database
+
+
+
+
+https://dzone.com/articles/practical-php-refactoring-25

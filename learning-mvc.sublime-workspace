@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Appl",
+				"ApplicationInterfaceLayer"
+			],
+			[
+				"REQUEST",
+				"REQUEST_URI	(application.php)"
+			],
+			[
+				"post",
+				"postData"
+			],
+			[
+				"FOrm",
+				"FormValidator"
+			],
+			[
+				"explod",
+				"explodePhoneNumber"
+			],
+			[
+				"extra",
+				"extractedPhoneType"
+			],
+			[
+				"html",
+				"htmlScrape"
+			],
+			[
+				"urlA",
+				"urlAppendedPhonelookup"
+			],
+			[
+				"ext",
+				"extractedAddress"
+			],
+			[
+				"morningst",
+				"morningstarNewURL"
+			],
+			[
+				"morning",
+				"morningstarBaseURL"
+			],
+			[
+				"sub",
+				"subarray"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"Cate",
+				"CategoriesAndStations"
+			],
+			[
+				"cate",
+				"category_or_station_name"
+			],
+			[
+				"sear",
+				"search_string"
+			],
+			[
+				"url_app",
+				"url_appended_411"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 226.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter: ",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"echo \"test\";",
+			"echo \"test\"",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Learning-MVC"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Learning-MVC/index.php",
+		"/C/wamp/www/tiny-master/application/core/application.php",
+		"/C/wamp/www/Learning-MVC/Learning-MVC/example.php",
+		"/C/wamp/www/Testing/Learning-MVC/index.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/loadme.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/loadme.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/home/example.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/home/index.php",
+		"/C/wamp/www/tiny-master/application/views/index.php",
+		"/C/wamp/www/tiny-master/application/core/controller.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/ApplicationLayer.php",
+		"/C/wamp/www/Testing/Learning-MVC/Controller.class.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/controllers/FormController.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/models/formValidator.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/view.render_form_errors.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/displayFormErrors.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/templates/header.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/templates/footer.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/error_render.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/functions/functions.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/model.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/view.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/controller.php",
+		"/C/wamp/www/Testing/mini-master/application/view/_templates/header.php",
+		"/C/wamp/www/Testing/Learning-MVC/refactor/create_project.php",
+		"/C/wamp/www/Testing/mini-master/application/core/application.php",
+		"/C/wamp/www/Testing/mini-master/application/controller/songs.php",
+		"/C/wamp/www/Testing/mini-master/application/controller/home.php",
+		"/C/wamp/www/Testing/Learning-MVC/refactor/class.CreateNewProject.php",
+		"/C/wamp/www/Testing/mini-master/application/core/controller.php",
+		"/C/wamp/www/Testing/mini-master/application/view/home/example_two.php",
+		"/C/wamp/www/Testing/mini-master/application/view/songs/index.php",
+		"/C/wamp/www/Testing/mini-master/application/view/home/index.php",
+		"/C/wamp/www/Testing/mini-master/public/index.php",
+		"/C/wamp/www/Testing/mini-master/application/view/songs/edit.php",
+		"/C/wamp/www/Testing/mini-master/application/model/model.php",
+		"/C/wamp/www/Testing/mini-master/application/view/error/index.php",
+		"/C/wamp/www/Testing/mini-master/application/controller/error.php",
+		"/C/wamp/www/Testing/mini-master/index.php",
+		"/C/wamp/www/Testing/mini-master/application/config/config.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.CreateNewProject.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/create_project.php",
+		"/C/wamp/www/Testing/index.php",
+		"/C/wamp/www/Testing/Controller.class.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/view_project.php",
+		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/new.php",
+		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/reverse_phone_lookup_functions.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/mcmaster_project_manager/app/php/includes/config/class.Config.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.authenticate.project.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.create.new.project.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/claim_project.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/project_files.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.core.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.config.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/library/bcrypt_password_hashing.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/overview.php",
+		"/C/Users/OPS/Desktop/weird.txt",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/page_error.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/modify_project.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/home.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/feedback.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/create_project_success.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/compendium.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/access_illegal.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/register.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/index.html",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/css/jQueryUI-theme/jquery-ui-1.10.3.custom.min.css",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/js/jquery.js",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/js/jquery-ui/jquery-ui.min.js",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.login.registration.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.account.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.projects.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.tasks.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.open.project.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.project.files.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.project.members.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/login.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/webhost_db_data/database_pdo.php",
+		"/C/Users/OPS/Desktop/test this one day.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/manage_projects.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/test.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/MyClass.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.autoloader.php",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/dired.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/dired.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/DoxyDoxygen/Doxy.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Doxy.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/linter-plugin-template/linter.py",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.javascript.dependency.manager.php",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Installed Packages/DocBlockr.sublime-package",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/README.md",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/reverse_phone_lookup/includes/new.php",
+		"/C/Users/OPS/Desktop/Sublime Text 2/Alignment/Alignment.py",
+		"/C/Users/OPS/Desktop/Sublime Text 2/Monokai Expanded.tmtheme",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/reverse_phone_lookup/includes/reverse_phone_lookup_functions.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/reverse_phone_lookup/index.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/reverse_phone_lookup/simple_html_dom.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/blackboard_receipt_parser/index.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/morningstar_financial_database_scraper/case_study_morningstar.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/databridge/includes/database.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/blackboard_receipt_parser/PHP - BlackBoard Receipts Parser.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/mini_projects.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/index.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/dist/assets/css/non-responsive.css",
+		"/C/Users/OPS/Desktop/!PORTFOLIO/index.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/test.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/includes/reverse_phone_lookup_functions.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/includes/new.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/fluid.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/simple_html_dom.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/newtest.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/includes/reverse_phone_lookup_functions.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/includes/input_validation.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/fluid.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/includes/libraries/simple_html_dom.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/newtest.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/!OUTSTANDING/411_scraper/Reverse Phone Lookup/phone to address - ver 1.5 (cell phone lookup added)/test.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 181.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"root",
+			"validateFormData",
+			"filter_by_value\n",
+			"submit_add_song",
+			"addSong",
+			"errors",
+			"validateNewProject",
+			"validate_instructor",
+			"public",
+			"validateFormData",
+			"error_exists",
+			"Create_New_Project",
+			"create_new_project",
+			"Create_New_Project",
+			"AuthenticateProject",
+			"access_rights",
+			"account_id",
+			"project_id",
+			"account_type",
+			"account_id",
+			"include('php/includes/database_pdo.php');",
+			"core",
+			"database_handle",
+			">database_handle-",
+			"$statement_handle ",
+			"database_handle",
+			"statement_handle",
+			"$instance",
+			"instance",
+			"tab",
+			"width",
+			"sublimelinter",
+			"map location",
+			"not available",
+			"pano",
+			"pano\npano",
+			"map_canvas",
+			"coordinates",
+			"myLatlng",
+			"pano",
+			"phoneAddressLookup",
+			"address",
+			"restaurant_location",
+			"googleMapsTravelDistance",
+			"formatPhoneNumber",
+			"sanitizeNumbers",
+			"extractedPhoneNumberType",
+			"str_get_html",
+			"get_data",
+			"curl_load_page",
+			"url_is_alive",
+			"test.php",
+			"sales",
+			"sale anaytics",
+			"item_sum",
+			"StatusSpeed",
+			"Helvetica Neue",
+			"body",
+			"\"",
+			"UnknownTable",
+			"ADDED",
+			"Légumes mélangés pour bol de nouilles",
+			"Vegetable Blend For Noodle Bowl",
+			"ingredients",
+			"ing",
+			"ingredients",
+			"ubicación",
+			"hint",
+			"tip",
+			"ti",
+			"searchKeywords",
+			"searchResult",
+			"ingredients",
+			"retrieveRecipe",
+			"retrieveRecipesByStation",
+			"recipe_name_eng",
+			"retrieveRecipesByCategory",
+			"recipe_name_eng",
+			"BR",
+			"ECHO",
+			"vAR_DUMP",
+			"searchResult",
+			"retrieveRecipesByStation",
+			"countRecipesByCategory",
+			"category_or_station_name",
+			"retrieveRecipesByCategory",
+			"countRecipesByCategory",
+			"tablesort",
+			"['id']",
+			"retrieveRecipesByStation",
+			"\n['id']",
+			"['id']",
+			"['id",
+			"searchResult",
+			"SearchRecipeDatabase",
+			"'id'",
+			"retrieveRecipesByCategory",
+			"@media (min-width: 1200px)",
+			"temp",
+			"helper",
+			"helper+",
+			"helper",
+			"retrieveRecipe",
+			"RetrieveRecipeDetails",
+			"recipe",
+			"RetrieveRecipeDetails",
+			"bootstrap",
+			"theme",
+			"js",
+			"Batido de banana y tofu",
+			"session_start",
+			"retrieve_projects_joined",
+			"HelperClass",
+			"array_",
+			"sides",
+			"page-header",
+			"entrees",
+			"centered-div",
+			"bagel",
+			"loaf slice",
+			"\"",
+			"\"\"\"",
+			"loaf",
+			"\"\"",
+			"loaf",
+			"\\",
+			"2013-09",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sales"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "learning-mvc.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"register",
+				"app\\register.php"
+			],
+			[
+				"database_pdo",
+				"app\\webhost_db_data\\database_pdo.php"
+			],
+			[
+				"databse",
+				"app\\webhost_db_data\\database_pdo.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"attr"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

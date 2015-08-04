@@ -14,24 +14,26 @@ class ApplicationInterfaceLayer
 	 */
 	private $urlController = null;
 	private $urlMethod     = null;
-	private $urlParameter = null;
+	private $urlParameter  = null;
 
 	/**
-	 * Starts application by disassembling the URL request and then invoking
-	 * the appropriate controller, methods and their parameters (if requested)
+	 * Starts application by disassembling the URL request and loading the appropriate controller, 
+	 * invoking the appropriate method and its parameters (if requested)
 	 * 
 	 */
 	public function __construct()
 	{
 
-		// disassembles the inbound url request into its controller, method, and parameter parts 
+		// disassembles the inbound URL request into its controller, method, and parameter parts
 		$this->getUrlRequest();
 		// Debug
+		echo "CONTROLLER: <br>";
 		var_dump($this->urlController);
+		echo "METHODS: <br>";
 		var_dump($this->urlMethod);
 
 		/**
-		 * Load default controller otherwise load the controller corresponding to the client request
+		 * Load default controller otherwise load the controller corresponding to the client URL request
 		 * 
 		 */
 		if (!$this->urlController) {
@@ -42,14 +44,14 @@ class ApplicationInterfaceLayer
 
 		} elseif (file_exists(APP . 'controllers/' . $this->urlController . '.php')) {
 
-			// invoke the controller corresponding to the url request
+			// load the controller corresponding to the client URL request
 			require(APP . 'controllers/' . $this->urlController . '.php');
 
 			// instantiate the corresponding controller as an object
 			$this->urlController = new $this->urlController;
 
 			/**
-			 * Load the method requested in the url for previously instantiated object, otherwise load
+			 * Invoke the method requested in the url for previously instantiated object, otherwise invoke
 			 * default index() method in the controller
 			 * 
 			 */
@@ -60,7 +62,7 @@ class ApplicationInterfaceLayer
 				var_dump($this->urlMethod);
 
 				/**
-				 * Pass the parameters to the method if they exist otherwise invoke the method with no parameters
+				 * Pass the parameters to the method if they exist otherwise invoke the method without parameters
 				 * 
 				 */
 				if (!empty($this->urlParameter)) {
@@ -76,19 +78,20 @@ class ApplicationInterfaceLayer
 				}
 
 			} else {
-
 				/**
-				 * Checks that the client actually requested a page via url controller method call
+				 * Invoke the default index() method for the corresponding controller if no method was requested 
+				 * otherwise redirect client to error page for tampering with the URL request
 				 * 
 				 */
-				if (strlen($this->urlMethod) == 0) {
-					// call default index() method for the corresponding controller
+				if ($this->urlMethod == null) {
+					// invoke default index() method
 					$this->urlController->index();
 				} else {
 					// redirect to error page
 					echo "REQUESTED METHOD DOES NOT EXIST";
 				}
 			}
+
 		} else {
 			// redirect to error page
 			echo "CATASTROPHIC ERROR";

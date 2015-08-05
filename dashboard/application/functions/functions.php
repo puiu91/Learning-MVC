@@ -45,7 +45,27 @@ function print_var($var)
 {
 	echo "<pre>";
 	print_r($var);
-	echo "<pre>";
+	echo "</pre>";
+}
+
+/**
+ * Runs the built-in htmlspecialchars function on arrays
+ * Credit: http://jvk-codex.blogspot.ca/2009/05/php-htmlspecialchars-on-array.html
+ * @param  [type] &$input [description]
+ * @return [type]         [description]
+ */
+function array_htmlspecialchars(&$input) {
+	if (is_array($input)) {
+		foreach ($input as $key => $value) {
+			if (is_array($value)) {
+				$input[$key] = array_htmlspecialchars($value);
+			} else {
+				$input[$key] = htmlspecialchars($value);
+			}
+		}
+		return $input;
+	}
+	return htmlspecialchars($input);
 }
 
 ?>

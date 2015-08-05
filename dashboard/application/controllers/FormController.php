@@ -1,12 +1,19 @@
 <?php 
 
-// load abstract controller
-require_once('application/core/controller.php');
-
-// load model
-require_once('application/models/formValidator.php');
+/**
+ * Abstract class controller
+ * 
+ */
+require(APP . '/core/Controller.php');
 
 /**
+ * Login form validator 
+ * 
+ */
+require(APP . '/models/formValidator.php');
+
+/**
+ * Controller for forms
  * 
  */
 class FormController extends Controller

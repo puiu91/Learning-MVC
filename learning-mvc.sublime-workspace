@@ -95,6 +95,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
+			"settings":
+			{
+				"buffer_size": 31956,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -103,7 +111,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 226.0,
+		"height": 222.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -160,42 +168,55 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/Learning-MVC",
-		"/C/wamp/www/Learning-MVC/dashboard",
-		"/C/wamp/www/Learning-MVC/dashboard/application",
-		"/C/wamp/www/Learning-MVC/dashboard/application/config",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/components",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core",
-		"/C/wamp/www/Learning-MVC/dashboard/application/css",
-		"/C/wamp/www/Learning-MVC/dashboard/application/functions",
-		"/C/wamp/www/Learning-MVC/dashboard/application/libraries",
-		"/C/wamp/www/Learning-MVC/dashboard/application/models",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/home",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/login",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/songs",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/default",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/login",
-		"/C/wamp/www/Learning-MVC/dashboard/refactor"
+		"/C/wamp/www/Learning-MVC"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/mini_projects.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Config.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Database.php",
+		"/F/!Newshosting/a.b.h.x264/Gladiator.2000.10th.Anniv ... RED.1080p.AVC.Blu-ray.DTS-HD 6/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.MA.5.1.nfo",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (6).nzb",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (2).nzb",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (1).nzb",
+		"/C/Users/OPS/Downloads/2015-08-10_03_20_21.nzb",
+		"/F/!NZBGet/!NZBGet_nzbs/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.nzb.queued",
+		"/F/!NZBGet/intermediate/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.#42/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.part464.rar",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.nzb",
+		"/C/Users/OPS/Desktop/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.nzb",
+		"/C/Users/OPS/Documents/My Games/Chivalry Medieval Warfare/UDKGame/Config/UDKEngine.ini",
+		"/F/TV Shows/The Last Ship/Season 1/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.idx",
+		"/F/TV Shows/The Last Ship/Season 1/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.sub",
+		"/F/!NZBGet/complete/The_Last_Ship_S01E01.1080p_BluRay_x264-ROVERS/the.last.ship.s01e01.1080p.bluray.x264-rovers.nfo",
+		"/F/!NZBGet/complete/The_Last_Ship_S01E01.1080p_BluRay_x264-ROVERS/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.idx",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Config/templates/config_server.tmpl",
+		"/C/Program Files (x86)/SABnzbd/lib/_sqlite3.pyd",
+		"/C/Program Files (x86)/SABnzbd/scripts/sabToSickBeard.py",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Classic/templates/config_switches.tmpl",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Classic/templates/config_cat.tmpl",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/HomeController.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/FormController.php",
+		"/F/!sabnzbd/completed/Black_Sails_S01E01_Multi_1080p_BluRay_x264-UKDTV/black.sails.s01e01.multi.1080p.bluray.x264-ukdtv.nfo",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/F/Movies/Edge of Tomorrow (2014) (1080p)/Edge.of.Tomorrow.2014.1080p.BluRay.x264-SPARKS.nfo",
+		"/F/Movies/Guardians of the Galaxy (2014) (3D) (Bluray) (iso)/Guardians.of.the.Galaxy.2014.3D.1080p.BluRay.AVC.DTS-HD.MA.7.1.nfo",
+		"/F/Movies/Conan The Barbarian (1982) (1080p) (Bluray)/Conan.The.Barbarian.1982.1080p.Blu-ray.AVC.DTS-HD.MA.5.nfo",
+		"/F/!sabnzbd/in progress/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.MA.5.1.nfo",
 		"/C/wamp/www/Learning-MVC/dashboard/application/views/login/login.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/models/LoginFormValidator.php",
-		"/C/wamp/www/Learning-MVC/dashboard/index.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/core/ApplicationInterfaceLayer.php",
+		"/C/wamp/www/Learning-MVC/dashboard/index.php",
+		"/C/Program Files (x86)/Steam/steamapps/common/chivalrymedievalwarfare/Engine/Config/BaseEngine.ini",
+		"/G/COMP SCI 1JC3 Material/CPU/CPU/PNG.hs",
+		"/F/!sabnzbd/completed/Black.Sails.S01.1080p.BluRay.x264-ROVERS/black.sails.s01e02.1080p.bluray.x264-rovers.nfo",
 		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/LoginController.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/models/formValidator.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/FormController.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/components/LoginCheckComponent.php",
 		"/C/wamp/www/tiny-master/application/views/home/index.php",
 		"/C/wamp/www/tiny-master/application/views/songs/index.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/functions/functions.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/libraries/bcrypt_password_hashing.php",
 		"/C/wamp/www/Learning-MVC/dashboard/application/config/ConfigDatabase.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/HomeController.php",
 		"/C/wamp/www/tiny-master/application/views/songs/edit.php",
 		"/C/wamp/www/tiny-master/application/controllers/songs.php",
 		"/C/wamp/www/tiny-master/application/controllers/home.php",
@@ -205,7 +226,6 @@
 		"/C/wamp/www/Learning-MVC/dashboard/application/css/login.register.css",
 		"/C/wamp/www/Learning-MVC/dashboard/application/css/bootstrap.css",
 		"/C/wamp/www/McMaster Project/app/css/login.register.css",
-		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/wamp/www/Learning-MVC/index.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/home.php",
 		"/C/wamp/www/Learning-MVC/application/config/Database.php",
@@ -221,8 +241,6 @@
 		"/C/wamp/www/tiny-master/application/core/controller.php",
 		"/C/wamp/www/Learning-MVC/application/core/model.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.AuthenticateProject.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Config.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Database.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.LoginRegistration.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/index.php",
 		"/C/wamp/www/Learning-MVC/application/config/config.php",
@@ -281,35 +299,7 @@
 		"/C/wamp/www/Testing/Controller.class.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/view_project.php",
 		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/new.php",
-		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/reverse_phone_lookup_functions.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/mcmaster_project_manager/app/php/includes/config/class.Config.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.authenticate.project.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.create.new.project.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/claim_project.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/project_files.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.core.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.config.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/library/bcrypt_password_hashing.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/overview.php",
-		"/C/Users/OPS/Desktop/weird.txt",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/page_error.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/modify_project.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/home.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/feedback.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/create_project_success.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/compendium.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/access_illegal.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/register.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/index.html",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/css/jQueryUI-theme/jquery-ui-1.10.3.custom.min.css",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/js/jquery.js",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/js/jquery-ui/jquery-ui.min.js",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.login.registration.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.account.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.projects.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.manage.tasks.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.open.project.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.project.files.php"
+		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/reverse_phone_lookup_functions.php"
 	],
 	"find":
 	{
@@ -328,6 +318,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"file poster=",
+			"$T",
+			"$servers",
+			"input type=\"password\"",
+			"Password",
+			"add server",
+			"bSmoothFrameRate",
+			"bSmoothFrameRate ",
 			"validateFormData",
 			"retrieveUsernamePassword",
 			"password_verify",
@@ -447,15 +445,7 @@
 			"retrieveRecipe",
 			"RetrieveRecipeDetails",
 			"recipe",
-			"RetrieveRecipeDetails",
-			"bootstrap",
-			"theme",
-			"js",
-			"Batido de banana y tofu",
-			"session_start",
-			"retrieve_projects_joined",
-			"HelperClass",
-			"array_"
+			"RetrieveRecipeDetails"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -474,13 +464,96 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3328.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -501,18 +574,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.570413436693,
 			1.0
 		],
 		"rows":

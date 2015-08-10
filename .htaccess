@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /Learning-MVC/
+
+RewriteRule ^index.php$ index.php

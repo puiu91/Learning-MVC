@@ -95,14 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
-			"settings":
-			{
-				"buffer_size": 31956,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -168,10 +160,41 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/Learning-MVC"
+		"/C/wamp/www/Learning-MVC",
+		"/C/wamp/www/Learning-MVC/application",
+		"/C/wamp/www/Learning-MVC/application/config",
+		"/C/wamp/www/Learning-MVC/application/controllers",
+		"/C/wamp/www/Learning-MVC/application/core",
+		"/C/wamp/www/Learning-MVC/application/models",
+		"/C/wamp/www/Learning-MVC/application/views",
+		"/C/wamp/www/Learning-MVC/application/views/login",
+		"/C/wamp/www/Learning-MVC/application/views/templates",
+		"/C/wamp/www/Learning-MVC/application/views/templates/login"
 	],
 	"file_history":
 	[
+		"/C/Users/OPS/Desktop/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.Extended.Bluray.1080p.DTS-HDMA.x264.dxva-FraMeSToR.nzb",
+		"/C/Users/OPS/Downloads/15396_a_b_hdtv_x264_EFNet_Gladiator_2000_10th_Anniversary_Edition_REMASTERED_Extended_Bluray_1080p_DTS_HDMA_x264_dxva_FraMeSToR.nzb",
+		"/C/wamp/www/Learning-MVC/application/views/login/login.php",
+		"/C/wamp/www/Learning-MVC/application/models/LoginModel.php",
+		"/C/wamp/www/Learning-MVC/application/controllers/LoginController.php",
+		"/C/wamp/www/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
+		"/C/wamp/www/Learning-MVC/application/core/View.php",
+		"/C/wamp/www/Learning-MVC/application/core/ErrorMessage.php",
+		"/C/wamp/www/Learning-MVC/application/core/Session.php",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD-NewzTown.nzb",
+		"/C/wamp/www/Learning-MVC/application/config/Errors.php",
+		"/C/wamp/www/Learning-MVC/application/views/templates/feedback.php",
+		"/C/wamp/www/Learning-MVC/application/config/application.php",
+		"/C/wamp/www/Learning-MVC/.htaccess",
+		"/C/wamp/www/Learning-MVC/index.php",
+		"/C/wamp/www/Learning-MVC/application/views/templates/header.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/.htaccess",
+		"/C/wamp/www/Learning-MVC/application/config/ConfigDatabase.php",
+		"/C/wamp/bin/apache/apache2.2.22/include/http_core.h",
+		"/C/wamp/bin/apache/apache2.2.22/include/ap_regex.h",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/databridge/database/database_databridge2.sql",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/mini_projects.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Config.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Database.php",
@@ -226,17 +249,14 @@
 		"/C/wamp/www/Learning-MVC/dashboard/application/css/login.register.css",
 		"/C/wamp/www/Learning-MVC/dashboard/application/css/bootstrap.css",
 		"/C/wamp/www/McMaster Project/app/css/login.register.css",
-		"/C/wamp/www/Learning-MVC/index.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/home.php",
 		"/C/wamp/www/Learning-MVC/application/config/Database.php",
-		"/C/wamp/www/Learning-MVC/application/config/ConfigDatabase.php",
 		"/C/wamp/www/Learning-MVC/example.php",
 		"/C/wamp/www/Learning-MVC/Controller.class.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/FormController.php",
 		"/C/wamp/www/Learning-MVC/application/models/formValidator.php",
 		"/C/wamp/www/Learning-MVC/refactor/create_project.php",
 		"/C/wamp/www/Learning-MVC/application/functions/functions.php",
-		"/C/wamp/www/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
 		"/C/wamp/www/Learning-MVC/application/config/class.Database.php",
 		"/C/wamp/www/tiny-master/application/core/controller.php",
 		"/C/wamp/www/Learning-MVC/application/core/model.php",
@@ -247,7 +267,6 @@
 		"/C/wamp/www/Learning-MVC/application/core/controller.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/songs.php",
 		"/C/wamp/www/Learning-MVC/application/views/songs/test.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/header.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/example.php",
 		"/C/wamp/www/tiny-master/application/config/config.php",
 		"/C/wamp/www/tiny-master/application/core/application.php",
@@ -281,25 +300,7 @@
 		"/C/wamp/www/Testing/mini-master/application/core/application.php",
 		"/C/wamp/www/Testing/mini-master/application/controller/songs.php",
 		"/C/wamp/www/Testing/mini-master/application/controller/home.php",
-		"/C/wamp/www/Testing/Learning-MVC/refactor/class.CreateNewProject.php",
-		"/C/wamp/www/Testing/mini-master/application/core/controller.php",
-		"/C/wamp/www/Testing/mini-master/application/view/home/example_two.php",
-		"/C/wamp/www/Testing/mini-master/application/view/songs/index.php",
-		"/C/wamp/www/Testing/mini-master/application/view/home/index.php",
-		"/C/wamp/www/Testing/mini-master/public/index.php",
-		"/C/wamp/www/Testing/mini-master/application/view/songs/edit.php",
-		"/C/wamp/www/Testing/mini-master/application/model/model.php",
-		"/C/wamp/www/Testing/mini-master/application/view/error/index.php",
-		"/C/wamp/www/Testing/mini-master/application/controller/error.php",
-		"/C/wamp/www/Testing/mini-master/index.php",
-		"/C/wamp/www/Testing/mini-master/application/config/config.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.CreateNewProject.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/create_project.php",
-		"/C/wamp/www/Testing/index.php",
-		"/C/wamp/www/Testing/Controller.class.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/view_project.php",
-		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/new.php",
-		"/C/Users/OPS/Documents/GitHub/411scraper/411scraper/includes/reverse_phone_lookup_functions.php"
+		"/C/wamp/www/Testing/Learning-MVC/refactor/class.CreateNewProject.php"
 	],
 	"find":
 	{
@@ -318,6 +319,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"displayFeedbackMessages",
 			"file poster=",
 			"$T",
 			"$servers",
@@ -444,8 +446,7 @@
 			"helper",
 			"retrieveRecipe",
 			"RetrieveRecipeDetails",
-			"recipe",
-			"RetrieveRecipeDetails"
+			"recipe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -464,96 +465,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/SQL/SQL.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3328.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

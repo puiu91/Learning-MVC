@@ -36,14 +36,10 @@ class LoginModel
 			 * 
 			 */
 			if ($dbResult and password_verify($postData['password'], $dbResult['password'])) {
-
 				return true;
-			
 			} else {
-				
 				Session::add('feedback_errors', ErrorMessage::get('ERROR_INVALID_CREDENTIALS'));
 				return false;
-
 			}
 		}
 	}
@@ -58,8 +54,8 @@ class LoginModel
 	public function retrieveCredentials($username) {
 		$statementHandler = Database::getInstance()->prepare(
 			"SELECT username, password
-             FROM   users
-             WHERE  username = :username"
+             	 FROM   users
+             	 WHERE  username = :username"
 		);
 
 		$statementHandler->execute(array(

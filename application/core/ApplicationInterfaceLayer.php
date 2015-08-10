@@ -5,7 +5,7 @@
  * control within the application based on requests invoked by user client
  * 
  */
-class ApplicationInterfaceLayer 
+class ApplicationInterfaceLayer
 {
 	/**
 	 * URL request 
@@ -27,9 +27,9 @@ class ApplicationInterfaceLayer
 		$this->getUrlRequest();
 		// Debug
 		echo "CONTROLLER: <br>";
-		var_dump($this->urlController);
+		print_var($this->urlController);
 		echo "METHODS: <br>";
-		var_dump($this->urlMethod);
+		print_var($this->urlMethod);
 
 		/**
 		 * Load default controller otherwise load the controller corresponding to the client URL request

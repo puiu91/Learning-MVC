@@ -15,6 +15,7 @@ class ErrorMessage
 
 	/**
 	 * Searches for error in the config errors array and returns the matching error description
+	 * Usage - ErrorMessage::get('ERROR_FIELD_IS_EMPTY');
 	 * 
 	 * @param  [type] $key [description]
 	 * @return [type]      [description]

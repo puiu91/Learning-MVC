@@ -8,7 +8,9 @@ if (!$this) {
     exit(header('HTTP/1.0 403 Forbidden'));
 }
 
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">

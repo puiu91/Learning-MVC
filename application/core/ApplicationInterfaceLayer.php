@@ -25,11 +25,16 @@ class ApplicationInterfaceLayer
 
 		// disassembles the inbound URL request into its controller, method, and parameter parts
 		$this->getUrlRequest();
-		// Debug
-		echo "CONTROLLER: <br>";
+
+		/**
+		 * Debugging
+		 */
+		echobr('Controller');
 		print_var($this->urlController);
-		echo "METHODS: <br>";
+		echobr('Method');
 		print_var($this->urlMethod);
+		echobr('Basename');
+		var_dump(basename($_SERVER['PHP_SELF']));
 
 		/**
 		 * Load default controller otherwise load the controller corresponding to the client URL request
@@ -37,8 +42,8 @@ class ApplicationInterfaceLayer
 		 */
 		if (!$this->urlController) {
 
-			require(APP_PATH . 'controllers/HomeController.php');
-			$webpage = new HomeController;
+			require(APP_PATH . 'controllers/IndexController.php');
+			$webpage = new IndexController;
 			$webpage->index();
 
 		} elseif (file_exists(APP_PATH . 'controllers/' . $this->urlController . '.php')) {
@@ -118,7 +123,7 @@ class ApplicationInterfaceLayer
 		// echo "URL IS: <br>";
 		// var_dump($url);
 		
-		var_dump($url);
+		// var_dump($url);
 		
 
 		// build url components - controller

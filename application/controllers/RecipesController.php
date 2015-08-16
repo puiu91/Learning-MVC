@@ -8,7 +8,8 @@
  * This is really weird behaviour, but documented here: http://php.net/manual/en/language.oop5.decon.php
  *
  */
-class HomeController
+
+class RecipesController
 {
     /**
      * PAGE: index
@@ -28,11 +29,11 @@ class HomeController
         // sidebar
             // <row>
             // <col-sm-3></end-col>
-        require APP_PATH . 'views/templates/dashboard/sidebar.php';
+        require APP_PATH . 'views/recipes/sidebar.php';
 
         // content
             // <col-sm-9></end-col>
-        require APP_PATH . 'views/templates/dashboard/content.php';
+        require APP_PATH . 'views/recipes/content.php';
 
         // footer 
             // <footer></footer>

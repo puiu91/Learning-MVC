@@ -1,7 +1,5 @@
 <body>
-
      <div class="container">
-
           <form class="form-signin" method="post" role="form" action="<?php echo URL_WITH_INDEX_FILE; ?>login/attemptLogin">
 
                <div class="page-header">
@@ -26,8 +24,6 @@
                <a class="btn btn-lg btn-default" href="forgot_password.php">Forgot password?</a>
 
           </form>
-
      </div>
-
 </body>
 </html>

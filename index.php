@@ -22,7 +22,8 @@ require(APP_PATH . '/functions/functions.php');
 // var_dump(APP_PATH);
 
 
-
+// require helper class
+require(APP_PATH . '/core/Helper.php');
 
 // require errors
 require(APP_PATH . '/core/ErrorMessage.php');
@@ -55,7 +56,7 @@ Session::initialize();
 
 // $_SESSION['logged_in'] = false;
 // $_SESSION['logged_in'] = true;
-print_var($_SESSION);
+// print_var($_SESSION);
 
 // if (LoginCheckComponent::isLoggedIn()) {
 	// echo "LOGGED IN <br>";

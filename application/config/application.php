@@ -53,8 +53,8 @@ if (defined('URL_SUB_FOLDER')) {
 	define('URL_WITH_INDEX_FILE', URL_PROTOCOL . URL_DOMAIN . '/' . URL_INDEX_FILE);
 }
 
-echo "URL WITH INDEX FILE <br>";
-var_dump(URL_WITH_INDEX_FILE);
+// echo "URL WITH INDEX FILE <br>";
+// var_dump(URL_WITH_INDEX_FILE);
 
 /**
 * Configuration for: Database

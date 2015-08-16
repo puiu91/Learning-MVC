@@ -38,15 +38,16 @@ class LoginController extends Controller
 	}
 
 	/**
-	 * Login <form action="login/attemptLogin"></form> which passes method login by localhost/login/attemptLogin
-	 * Note - the first login is the controller and the second login is the method being requested in the controller
-	 * @return [type] [description]
+	 * The login form action field requests the method attemptLogin via domain/login/attemptLogin 
+	 * Example: <form action="login/attemptLogin"></form>
+	 * 
+	 * @return void
 	 */
 	public function attemptLogin()
 	{
 		$LoginModel = new LoginModel;
 
-		// stores boolean representing if client credentials matched database record
+		// store boolean representing if client credentials matched database record
 		$login_successful = $LoginModel->validateLoginForm($_POST);
 
 		echobr("Login is:");
@@ -56,8 +57,8 @@ class LoginController extends Controller
 			// redirect to dashboard
 			header('Location: ' . URL_WITH_INDEX_FILE);
 		} else {
-			// redirect to login
-			header('Location: ' . URL_WITH_INDEX_FILE . 'login/index');
+			// redirect to login screen
+			header('Location: ' . URL_WITH_INDEX_FILE . 'login');
 		}
 	}
 

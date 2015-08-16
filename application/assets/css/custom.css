@@ -107,3 +107,15 @@ body {
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+
+/* Text */
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

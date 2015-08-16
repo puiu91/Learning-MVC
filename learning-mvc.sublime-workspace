@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
-				"feedbac",
-				"feedback_errors"
+				"Login",
+				"LoginCheckComponent"
+			],
+			[
+				"error",
+				"errorsArray"
+			],
+			[
+				"retreive",
+				"retrieveCredentials"
+			],
+			[
+				"retri",
+				"retrieveUsernamePassword"
 			],
 			[
 				"Appl",
@@ -91,8 +103,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 185.0,
-		"last_filter": "",
+		"height": 222.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
@@ -102,22 +114,6 @@
 			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"delete",
-				"File: Delete"
-			],
-			[
-				"sublimelinter",
-				"SublimeLinter: Choose Mark Style"
-			],
-			[
-				"sublimel",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"list packa",
-				"Package Control: List Packages"
 			],
 			[
 				"install ",
@@ -140,11 +136,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 536.0
 	},
 	"console":
 	{
-		"height": 85.0,
+		"height": 260.0,
 		"history":
 		[
 			"echo \"test\";",
@@ -168,126 +164,104 @@
 		"/C/wamp/www/Learning-MVC/application",
 		"/C/wamp/www/Learning-MVC/application/config",
 		"/C/wamp/www/Learning-MVC/application/controllers",
-		"/C/wamp/www/Learning-MVC/application/controllers/components",
 		"/C/wamp/www/Learning-MVC/application/core",
+		"/C/wamp/www/Learning-MVC/application/models",
 		"/C/wamp/www/Learning-MVC/application/views",
-		"/C/wamp/www/Learning-MVC/application/views/home",
 		"/C/wamp/www/Learning-MVC/application/views/login",
-		"/C/wamp/www/Learning-MVC/application/views/recipes",
 		"/C/wamp/www/Learning-MVC/application/views/templates",
-		"/C/wamp/www/Learning-MVC/application/views/templates/dashboard",
-		"/C/wamp/www/Learning-MVC/application/views/templates/index"
+		"/C/wamp/www/Learning-MVC/application/views/templates/login"
 	],
 	"file_history":
 	[
-		"/C/wamp/www/Receiptio 2/php/layout/sidebar_statistics.php",
-		"/C/wamp/www/Receiptio 2/php/layout/navbar.php",
-		"/C/wamp/www/Receiptio 2/new_income.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/footer.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/HomeController.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/navbar_alt.php",
-		"/C/wamp/www/Learning-MVC/application/views/view.render_form_errors.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/dashboard/sidebar.php",
-		"/C/wamp/www/Learning-MVC/application/views/recipes/sidebar.php",
-		"/C/wamp/www/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/RecipesController.php",
-		"/C/wamp/www/Learning-MVC/application/views/recipes/content.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/index/content.php",
-		"/C/Users/cbaciu2/Downloads/RESIDENT DINING_9_2_2015-9_2_2015_70309178 - 710.f2s",
-		"/C/wamp/www/Learning-MVC/application/views/templates/dashboard/content.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/DrilldownController.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/IndexController.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/Recipes.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/header_alt.php",
-		"/C/wamp/www/Learning-MVC/application/core/Helper.php",
-		"/C/wamp/www/Learning-MVC/links.txt",
-		"/C/wamp/www/Learning-MVC/index.php",
-		"/C/wamp/www/AAA/Food_Parsing/Food_Parsing/Large Label Parser (Complete).php",
-		"/C/Users/cbaciu2/Desktop/Projects/blackboard_receipt_parser/PHP - BlackBoard Receipts Parser.php",
-		"/C/wamp/www/Version 3 (Latest)/includes/database.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/login.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/databridge/includes/database.php",
-		"/C/Users/cbaciu2/Pictures/!!!aaaaaa/New Text Document.txt",
-		"/C/wamp/www/Receiptio 2/index.php",
-		"/C/wamp/www/Receiptio 2/home.php",
-		"/C/wamp/www/Receiptio 2/php/classes/class.incomes.php",
-		"/C/wamp/www/Receiptio 2/php/layout/head.php",
-		"/C/wamp/www/Receiptio 2/php/layout/sidebar_receipts.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/header.php",
-		"/C/wamp/www/Learning-MVC/application/config/application.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/components/HelperComponent.php",
-		"/C/wamp/www/Receiptio 2/php/classes/config/class.config.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Config.php",
+		"/J/!!!OTHER/Version 3 (Latest)/includes/database.php",
+		"/C/Users/OPS/Desktop/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.Extended.Bluray.1080p.DTS-HDMA.x264.dxva-FraMeSToR.nzb",
+		"/C/Users/OPS/Downloads/15396_a_b_hdtv_x264_EFNet_Gladiator_2000_10th_Anniversary_Edition_REMASTERED_Extended_Bluray_1080p_DTS_HDMA_x264_dxva_FraMeSToR.nzb",
+		"/C/wamp/www/Learning-MVC/application/views/login/login.php",
 		"/C/wamp/www/Learning-MVC/application/models/LoginModel.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/LoginController.php",
-		"/C/wamp/www/Learning-MVC/application/views/login/login.php",
-		"/C/Users/cbaciu2/Documents/!!!SWAP FILE/Re Can you call John Wright.htm",
-		"/C/Users/cbaciu2/Documents/!!!SWAP FILE/Re Can you call John Wright.msg",
-		"/C/Users/cbaciu2/Documents/Loyalty Program/Loyalty Program Codes.txt",
-		"/C/Users/cbaciu2/Documents/Code Snippets/writing to CSV file.php",
-		"/C/Users/cbaciu2/Documents/!a/Scraper Code/simple_html_dom.php",
-		"/C/Users/cbaciu2/Documents/!!!SWAP FILE/to dos.txt",
-		"/C/Users/cbaciu2/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/wamp/www/Learning-MVC/application/config/Database.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/FormController.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/SongsController.php",
+		"/C/wamp/www/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
 		"/C/wamp/www/Learning-MVC/application/core/View.php",
+		"/C/wamp/www/Learning-MVC/application/core/ErrorMessage.php",
+		"/C/wamp/www/Learning-MVC/application/core/Session.php",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD-NewzTown.nzb",
+		"/C/wamp/www/Learning-MVC/application/config/Errors.php",
+		"/C/wamp/www/Learning-MVC/application/views/templates/feedback.php",
+		"/C/wamp/www/Learning-MVC/application/config/application.php",
 		"/C/wamp/www/Learning-MVC/.htaccess",
-		"/C/wamp/logs/apache_error.log",
-		"/C/wamp/bin/apache/Apache2.4.4/conf/httpd.conf",
-		"/C/wamp/www/Learning-MVC/New Text Document.txt",
-		"/C/wamp/www/Learning-MVC/dashboard/application/config/application.php",
-		"/C/wamp/www/Learning-MVC/dashboard/index.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/ErrorMessage.php",
-		"/C/Program Files/Adobe/Adobe InDesign CC 2014/Scripts/Scripts Panel/Samples/TEST/FitTextToFrame.jsxbin",
-		"/C/wamp/www/Learning-MVC/dashboard/application/functions/functions.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/ApplicationInterfaceLayer.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/LoginController.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/models/LoginModel.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/Model.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/login/login.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/View.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/feedback.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/songs/index.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/Session.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/config/Errors.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/Errors.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/core/Controller.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/SongsController.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/HomeController.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/header.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/songs/songs.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/components/LoginCheckComponent.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/config/ConfigDatabase.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/FormController.php",
-		"/C/wamp/www/Learning-MVC/dashboard/splash.html",
-		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/components/Login.php",
-		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/splash",
-		"/C/wamp/www/Learning-MVC/index.html",
-		"/C/wamp/www/Learning-MVC/app/application/config/application.php",
-		"/C/wamp/www/Learning-MVC/application/views/templates/default/header.php",
-		"/C/wamp/www/Learning-MVC/application/controllers/components/LoginComponent.php",
-		"/C/wamp/www/Learning-MVC/test/application/config/application.php",
-		"/C/wamp/www/Learning-MVC/test/application/core/ApplicationInterfaceLayer.php",
-		"/C/wamp/www/Learning-MVC/Controller.class.php",
-		"/C/Users/cbaciu2/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/cbaciu2/Desktop/Shortcuts/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/C/wamp/www/Learning-MVC/learning-mvc.sublime-project",
-		"/C/wamp/www/Learning-MVC/application/controllers/home.php",
+		"/C/wamp/www/Learning-MVC/index.php",
+		"/C/wamp/www/Learning-MVC/application/views/templates/header.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/.htaccess",
 		"/C/wamp/www/Learning-MVC/application/config/ConfigDatabase.php",
+		"/C/wamp/bin/apache/apache2.2.22/include/http_core.h",
+		"/C/wamp/bin/apache/apache2.2.22/include/ap_regex.h",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/sample database/sample_database.sql",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/databridge/database/database_databridge2.sql",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/mini_projects.php",
+		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Database.php",
+		"/F/!Newshosting/a.b.h.x264/Gladiator.2000.10th.Anniv ... RED.1080p.AVC.Blu-ray.DTS-HD 6/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.MA.5.1.nfo",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (6).nzb",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (2).nzb",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD (1).nzb",
+		"/C/Users/OPS/Downloads/2015-08-10_03_20_21.nzb",
+		"/F/!NZBGet/!NZBGet_nzbs/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.nzb.queued",
+		"/F/!NZBGet/intermediate/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.#42/Gladiator.10th.Anniversary.Edition.BluRay.DL.DTS-HD.part464.rar",
+		"/C/Users/OPS/Downloads/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.nzb",
+		"/C/Users/OPS/Desktop/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.nzb",
+		"/C/Users/OPS/Documents/My Games/Chivalry Medieval Warfare/UDKGame/Config/UDKEngine.ini",
+		"/F/TV Shows/The Last Ship/Season 1/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.idx",
+		"/F/TV Shows/The Last Ship/Season 1/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.sub",
+		"/F/!NZBGet/complete/The_Last_Ship_S01E01.1080p_BluRay_x264-ROVERS/the.last.ship.s01e01.1080p.bluray.x264-rovers.nfo",
+		"/F/!NZBGet/complete/The_Last_Ship_S01E01.1080p_BluRay_x264-ROVERS/The.Last.Ship.S01E01.1080p.BluRay.x264-ROVERS.idx",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Config/templates/config_server.tmpl",
+		"/C/Program Files (x86)/SABnzbd/lib/_sqlite3.pyd",
+		"/C/Program Files (x86)/SABnzbd/scripts/sabToSickBeard.py",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Classic/templates/config_switches.tmpl",
+		"/C/Program Files (x86)/SABnzbd/interfaces/Classic/templates/config_cat.tmpl",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/HomeController.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/FormController.php",
+		"/F/!sabnzbd/completed/Black_Sails_S01E01_Multi_1080p_BluRay_x264-UKDTV/black.sails.s01e01.multi.1080p.bluray.x264-ukdtv.nfo",
+		"/C/Users/OPS/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/F/Movies/Edge of Tomorrow (2014) (1080p)/Edge.of.Tomorrow.2014.1080p.BluRay.x264-SPARKS.nfo",
+		"/F/Movies/Guardians of the Galaxy (2014) (3D) (Bluray) (iso)/Guardians.of.the.Galaxy.2014.3D.1080p.BluRay.AVC.DTS-HD.MA.7.1.nfo",
+		"/F/Movies/Conan The Barbarian (1982) (1080p) (Bluray)/Conan.The.Barbarian.1982.1080p.Blu-ray.AVC.DTS-HD.MA.5.nfo",
+		"/F/!sabnzbd/in progress/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD/Gladiator.2000.10th.Anniversary.Edition.REMASTERED.1080p.AVC.Blu-ray.DTS-HD.MA.5.1.nfo",
+		"/C/wamp/www/Learning-MVC/dashboard/application/views/login/login.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/models/LoginFormValidator.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/core/ApplicationInterfaceLayer.php",
+		"/C/wamp/www/Learning-MVC/dashboard/index.php",
+		"/C/Program Files (x86)/Steam/steamapps/common/chivalrymedievalwarfare/Engine/Config/BaseEngine.ini",
+		"/G/COMP SCI 1JC3 Material/CPU/CPU/PNG.hs",
+		"/F/!sabnzbd/completed/Black.Sails.S01.1080p.BluRay.x264-ROVERS/black.sails.s01e02.1080p.bluray.x264-rovers.nfo",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/LoginController.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/models/formValidator.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/controllers/components/LoginCheckComponent.php",
+		"/C/wamp/www/tiny-master/application/views/home/index.php",
+		"/C/wamp/www/tiny-master/application/views/songs/index.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/functions/functions.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/libraries/bcrypt_password_hashing.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/config/ConfigDatabase.php",
+		"/C/wamp/www/tiny-master/application/views/songs/edit.php",
+		"/C/wamp/www/tiny-master/application/controllers/songs.php",
+		"/C/wamp/www/tiny-master/application/controllers/home.php",
+		"/C/wamp/www/tiny-master/index.php",
+		"/C/wamp/www/tiny-master/application/model/model.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/views/templates/login/header.php",
+		"/C/wamp/www/Learning-MVC/dashboard/application/css/login.register.css",
+		"/C/wamp/www/Learning-MVC/dashboard/application/css/bootstrap.css",
+		"/C/wamp/www/McMaster Project/app/css/login.register.css",
+		"/C/wamp/www/Learning-MVC/application/controllers/home.php",
+		"/C/wamp/www/Learning-MVC/application/config/Database.php",
 		"/C/wamp/www/Learning-MVC/example.php",
+		"/C/wamp/www/Learning-MVC/Controller.class.php",
+		"/C/wamp/www/Learning-MVC/application/controllers/FormController.php",
 		"/C/wamp/www/Learning-MVC/application/models/formValidator.php",
 		"/C/wamp/www/Learning-MVC/refactor/create_project.php",
 		"/C/wamp/www/Learning-MVC/application/functions/functions.php",
 		"/C/wamp/www/Learning-MVC/application/config/class.Database.php",
-		"/C/wamp/www/tiny-master/application/views/songs/index.php",
 		"/C/wamp/www/tiny-master/application/core/controller.php",
-		"/C/wamp/www/tiny-master/application/controllers/home.php",
-		"/C/wamp/www/tiny-master/application/views/songs/edit.php",
-		"/C/wamp/www/tiny-master/application/controllers/songs.php",
 		"/C/wamp/www/Learning-MVC/application/core/model.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.AuthenticateProject.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Config.php",
-		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/config/class.Database.php",
 		"/C/wamp/www/! ! ! ! ! ! ! P O R T F O L I O/projects/mcmaster_project_manager/app/php/includes/class.LoginRegistration.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/index.php",
 		"/C/wamp/www/Learning-MVC/application/config/config.php",
@@ -296,18 +270,37 @@
 		"/C/wamp/www/Learning-MVC/application/views/songs/test.php",
 		"/C/wamp/www/Learning-MVC/application/controllers/example.php",
 		"/C/wamp/www/tiny-master/application/config/config.php",
-		"/C/wamp/www/tiny-master/index.php",
 		"/C/wamp/www/tiny-master/application/core/application.php",
 		"/C/wamp/www/Learning-MVC/application/views/home/example_one.php",
 		"/C/wamp/www/Learning-MVC/application/views/home/example_two.php",
 		"/C/wamp/www/Learning-MVC/application/views/home/index.php",
-		"/C/wamp/www/tiny-master/application/views/home/index.php",
 		"/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Sublime Text 3.lnk",
 		"/C/wamp/www/Learning-MVC/Learning-MVC/example.php",
 		"/C/wamp/www/Testing/Learning-MVC/index.php",
 		"/C/wamp/www/Testing/Learning-MVC/application/core/ApplicationInterfaceLayer.php",
 		"/C/wamp/www/Testing/Learning-MVC/application/loadme.php",
-		"/C/wamp/www/Testing/Learning-MVC/application/views/loadme.php"
+		"/C/wamp/www/Testing/Learning-MVC/application/views/loadme.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/home/example.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/home/index.php",
+		"/C/wamp/www/tiny-master/application/views/index.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/ApplicationLayer.php",
+		"/C/wamp/www/Testing/Learning-MVC/Controller.class.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/controllers/FormController.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/models/formValidator.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/view.render_form_errors.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/displayFormErrors.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/templates/header.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/templates/footer.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/views/error_render.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/functions/functions.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/model.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/view.php",
+		"/C/wamp/www/Testing/Learning-MVC/application/core/controller.php",
+		"/C/wamp/www/Testing/mini-master/application/view/_templates/header.php",
+		"/C/wamp/www/Testing/Learning-MVC/refactor/create_project.php",
+		"/C/wamp/www/Testing/mini-master/application/core/application.php",
+		"/C/wamp/www/Testing/mini-master/application/controller/songs.php",
+		"/C/wamp/www/Testing/mini-master/application/controller/home.php"
 	],
 	"find":
 	{
@@ -315,7 +308,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 104.0,
+		"height": 181.0,
 		"where_history":
 		[
 			""
@@ -326,21 +319,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"recipes",
-			"isLoggedIn",
-			"URL_WITH_INDEX_FILE",
-			"ROOT",
-			"APP .",
-			"ErrorMessage.php",
-			"APP",
-			"formFieldErrors",
-			"renderFeedbackMessages",
-			"		// $this->validateLoginCredentails();\nvalidateLoginCredentails",
-			"validateLoginCredentails",
-			"ErrorMessage",
-			"test",
-			"LoginFormValidator",
-			"LoginCheckComponent",
+			"displayFeedbackMessages",
+			"file poster=",
+			"$T",
+			"$servers",
+			"input type=\"password\"",
+			"Password",
+			"add server",
+			"bSmoothFrameRate",
+			"bSmoothFrameRate ",
+			"validateFormData",
+			"retrieveUsernamePassword",
+			"password_verify",
+			"echo",
+			"var_dump",
 			"config.php",
 			"functions.php",
 			"contains",
@@ -453,7 +445,8 @@
 			"helper+",
 			"helper",
 			"retrieveRecipe",
-			"RetrieveRecipeDetails"
+			"RetrieveRecipeDetails",
+			"recipe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -461,7 +454,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"APP_PATH .",
 			"sales"
 		],
 		"reverse": false,
@@ -480,7 +472,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -543,12 +535,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -571,7 +563,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 359.0,
+	"side_bar_width": 372.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

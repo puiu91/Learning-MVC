@@ -2,8 +2,8 @@
 
 $sidebar_links = array(
      'menumanager.php' => array('page_name' => 'Menu Manager'),
-     'recipes.php'   => array('page_name' => 'Recipes'),
-     'dashboard.php' => array('page_name' => 'Menu Boards'),
+     'recipes.php'     => array('page_name' => 'Recipes'),
+     'signage.php'     => array('page_name' => 'Signage'),
 );
 
 $current_page  = basename($_SERVER['PHP_SELF']);
@@ -24,6 +24,7 @@ $current_page  = basename($_SERVER['PHP_SELF']);
                     <span class="icon-bar"></span>
                </button>
                <a class="navbar-brand" href="<?php echo URL_WITH_INDEX_FILE ?>">SMG Online</a>
+
           </div>
           <div class="navbar-collapse collapse">
                <ul class="nav navbar-nav">
@@ -53,8 +54,10 @@ $current_page  = basename($_SERVER['PHP_SELF']);
                </ul>
 
                <div class="navbar-form navbar-right">
+               	<span>Active Menu: Mindful II &nbsp;</span>
+
                     <div class="form-group">
-                         <a class="btn btn-default" href="logout.php" role="button">Logout</a>
+                         <a class="btn btn-default" href="http://localhost/Learning-MVC/logout.php" role="button">Logout</a>
                     </div>
                </div>
 

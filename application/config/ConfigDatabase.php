@@ -33,10 +33,10 @@ class ConfigDatabase
  *
  */
 ConfigDatabase::write('db.user',     'root');
-ConfigDatabase::write('db.password', 'root');
+ConfigDatabase::write('db.password', 'password');
 ConfigDatabase::write('db.engine',   'mysql');
 ConfigDatabase::write('db.host',     'localhost');
-ConfigDatabase::write('db.basename', 'mcmaster_projects');
+ConfigDatabase::write('db.basename', 'smg');
 
 /**
  * Assign values to object (live server)

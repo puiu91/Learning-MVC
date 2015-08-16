@@ -6,6 +6,11 @@
  */
 class IndexController
 {
+	public function __construct()
+	{
+		Authenticate::checkAuthentication();
+	}
+	
     /**
      * Handles user request for index in the following cases:
      * 

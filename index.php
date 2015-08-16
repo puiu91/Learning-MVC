@@ -25,6 +25,9 @@ require(APP_PATH . '/functions/functions.php');
 // require helper class
 require(APP_PATH . '/core/Helper.php');
 
+// require authentication
+require(APP_PATH . '/core/Authenticate.php');
+
 // require errors
 require(APP_PATH . '/core/ErrorMessage.php');
 
@@ -54,9 +57,16 @@ include(APP_PATH . '/controllers/components/LoginCheckComponent.php');
 // start the session
 Session::initialize();
 
+
 // $_SESSION['logged_in'] = false;
 // $_SESSION['logged_in'] = true;
-// print_var($_SESSION);
+print_var($_SESSION);
+
+// checks login 
+// if ($_SESSION['logged_in'] == false) {
+	// header('Location: ' . URL_WITH_INDEX_FILE . 'login');
+	// echo URL_WITH_INDEX_FILE . 'login';
+// }
 
 // if (LoginCheckComponent::isLoggedIn()) {
 	// echo "LOGGED IN <br>";

@@ -1,3 +1,6 @@
+		
+	<div class="row">
+
 		<div class="col-sm-12">
 			<div class="well-main">
 				<h2>Welcome to SMG Online</h2>

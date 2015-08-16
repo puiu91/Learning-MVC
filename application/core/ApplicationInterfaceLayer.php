@@ -22,19 +22,25 @@ class ApplicationInterfaceLayer
 	 */
 	public function __construct()
 	{
-
 		// disassembles the inbound URL request into its controller, method, and parameter parts
 		$this->getUrlRequest();
 
 		/**
 		 * Debugging
 		 */
-		echobr('Controller');
-		print_var($this->urlController);
-		echobr('Method');
-		print_var($this->urlMethod);
-		echobr('Basename');
-		var_dump(basename($_SERVER['PHP_SELF']));
+		
+		print_var(URL_WITH_INDEX_FILE);
+
+		$debug = 0;
+
+		if ($debug == 1) {
+			echobr('Controller');
+			print_var($this->urlController);
+			echobr('Method');
+			print_var($this->urlMethod);
+			echobr('Basename');
+			var_dump(basename($_SERVER['PHP_SELF']));
+		}
 
 		/**
 		 * Load default controller otherwise load the controller corresponding to the client URL request
@@ -74,8 +80,8 @@ class ApplicationInterfaceLayer
 					$this->urlController->{$this->urlMethod}($this->urlParameter);
 
 					//debug 
-					// echo "REQUESTED PARAMETERS: <br>";
-					// var_dump($this->urlParameter);
+					echo('<br>' . 'Requested Parameters: ' . $this->urlParameter . '<br>');
+
 				} else {
 					$this->urlController->{$this->urlMethod}();
 				}

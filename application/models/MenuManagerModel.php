@@ -1,17 +1,58 @@
 <?php
 
 /**
- * Load bcrypt hashing functions
+ * Class that handles the menu manager section
  * 
  */
-require(APP_PATH . 'libraries/bcrypt_password_hashing.php');
-
-/**
- * Class that validates login-form input fields
- * 
- */
-class LoginModel
+class MenuManagerModel
 {
+	/**
+	 * Attempts to retrieve the username and password by selecting the row matching 
+	 * the username provided by the client
+	 * 
+	 * @param  string $username 
+	 * @return array
+	 */
+	public function retrievePremadeMenus() {
+		$statementHandler = Database::getInstance()->prepare(
+			"SELECT id, menu_name
+             	 FROM   menus"
+		);
+
+		$statementHandler->execute();
+
+		return $statementHandler->fetchAll(PDO::FETCH_ASSOC);
+	}
+
+	/**
+	 * Adds a menu to the client workspace
+	 */
+	public function addMenu() 
+	{
+				
+	}
+	
+	/**
+	 * Determines if a menu has already been added by a user to their workspace
+	 * @return [type] [description]
+	 */
+	public function menuAlreadyAdded($account_id)
+	{
+		$statementHandler = Database::getInstance()->prepare(
+			"SELECT id, menu_id, account_id
+             	 FROM   menus_added
+             	 WHERE  account_id = :account_id"
+		);
+
+		$statementHandler->execute(array(
+			':account_id' => Session::get('Account_ID')
+		));
+
+		return $statementHandler->fetch(PDO::FETCH_ASSOC);
+	}
+
+
+
 	/**
 	 * Runs validation on login-form input fields
 	 * 
@@ -40,17 +81,13 @@ class LoginModel
 		}
 	}
 
-	/**
-	 * Attempts to retrieve the username and password by selecting the row matching 
-	 * the username provided by the client
-	 * 
-	 * @param  string $username 
-	 * @return array
-	 */
-	public function retrieveCredentials($username) {
+
+
+
+	public function sample() {
 		$statementHandler = Database::getInstance()->prepare(
-			"SELECT username, password
-             	 FROM   users
+			"SELECT id, menu_name
+             	 FROM   menus
              	 WHERE  username = :username"
 		);
 
@@ -60,6 +97,7 @@ class LoginModel
 
 		return $statementHandler->fetch(PDO::FETCH_ASSOC);
 	}
+
 
 	/**
 	 * Send the errors array to requestor

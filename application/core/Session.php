@@ -12,7 +12,7 @@ class Session
 	 * 
 	 * @return void
 	 */
-	public static function initialize() 
+	public static function initialize()
 	{
 		if (session_id() == null) {
 			session_start();
@@ -69,7 +69,10 @@ class Session
 	 * 
 	 * @return boolean
 	 */
-	public static function isLoggedIn() {}
+	public static function isLoggedIn() 
+	{
+		return (self::get('logged_in') ? true : false);
+	}
 }
 
 ?>

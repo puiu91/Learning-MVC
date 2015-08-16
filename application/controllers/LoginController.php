@@ -54,6 +54,8 @@ class LoginController extends Controller
 		var_dump($login_successful);
 
 		if ($login_successful) {
+			// store in session
+			$_SESSION['logged_in'] = true;
 			// redirect to dashboard
 			header('Location: ' . URL_WITH_INDEX_FILE);
 		} else {

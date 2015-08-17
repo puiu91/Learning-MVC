@@ -43,6 +43,13 @@ class Session
 		}
 	}
 
+	public static function getNested($key, $value)
+	{
+		if (isset($_SESSION[$key][$value])) {
+			return $_SESSION[$key][$value];
+		}
+	}
+
 	/**
 	 * Adds new array element to an existing key (used for storing error messages)
 	 * 

@@ -2,7 +2,7 @@
 
 			<div class="well-main">
 				<h2>Manage Menus</h2>
-				<p class="lead">customize premade menu templates</p>
+				<p class="lead">select a premade menu template to customise</p>
 				<hr>
 
 				<?php View::displayFeedbackMessages(); ?>

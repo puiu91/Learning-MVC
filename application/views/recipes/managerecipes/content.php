@@ -9,28 +9,29 @@
 
 
 
-				<?php if (isset($addedMenus) and !empty($addedMenus)): ?>
+				<?php if (isset($recipes) and !empty($recipes)): ?>
 
 					<table class="table table-striped">
 						<thead>
 							<tr>
 								<th>Menu ID</th>
+								<th>Recipe ID</th>
 								<th>Menu Name</th>
 								<th>Options</th>
 							</tr>
 						</thead>
 						<tbody>
 
-							<?php foreach ($addedMenus as $k => $v): ?>
+							<?php foreach ($recipes as $k => $v): ?>
 
 							<tr>
-								<th><p><? echo $v['menu_id'] ?></p></th>
-								<td><p><? echo $v['menu_name'] ?></p></td>
+							<th><p><? echo $v['menu_id'] ?></p></th>
+								<th><p><? echo $v['recipe_id'] ?></p></th>
+								<td><p><? echo $v['recipe_name'] ?></p></td>
 								<td>
-									<a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/activatemenu/' . $v['menu_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Open Menu</button></a>
-									<a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/deletemenu/' . $v['menu_id']; ?>"><button type="button" class="btn btn-danger btn-xs">Delete Menu</button></a>
+									<a href="<?php echo URL_WITH_INDEX_FILE . 'recipes/removeRecipeAction/' . $v['recipe_id']; ?>"><button type="button" class="btn btn-danger btn-xs">Remove Recipe</button></a>
+									<a href="<?php echo URL_WITH_INDEX_FILE . 'recipes/removeRecipeAction/' . $v['recipe_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Create Signage</button></a>
 								</td>
-								<!-- <td><a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/loadmenuaction/' . $v['menu_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Open Menu</button></a></td> -->
 							</tr>
 
 							<?php endforeach; ?>
@@ -44,7 +45,7 @@
 
 					<div class="alert alert-success fade in">
 						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-						<strong>Note!</strong> You need to add a menu prior to being able to manage it, <a href="loadmenu">click here to add a menu now</a>
+						<strong>Note!</strong> You need to add recipes prior to being able to manage them, <a href="searchrecipes">click here to add a menu now</a>
 					</div>
 
 				<?php endif; ?>

@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Class that handles the menu manager section
+ * Class that handles the signage creation section
  * 
  */
-class MenuManagerModel
+class SignageGeneratorModel
 {
 	/**
 	 * Retrieves available pre-made menus from the database

@@ -19,6 +19,12 @@ class View {
 			}
 		}
 
+		if (isset($_SESSION['feedback_success'])) {
+			foreach ($_SESSION['feedback_succcess'] as $index => $successMessage) {
+				# code...
+			}
+		}
+
 		// TODO ::: display success messages to client
 
 		// clear and reset the errors from session

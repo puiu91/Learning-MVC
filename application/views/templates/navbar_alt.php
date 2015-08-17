@@ -1,12 +1,18 @@
 <?php
 
 $sidebar_links = array(
-     'menumanager.php' => array('page_name' => 'Menu Manager'),
-     'recipes.php'     => array('page_name' => 'Recipes'),
-     'signage.php'     => array('page_name' => 'Signage'),
+	'index.php'       => array('page_name' => 'SMG Online'),
+	'menumanager.php' => array('page_name' => 'Menu Manager'),
+	'recipes.php'     => array('page_name' => 'Recipes'),
+	'signagegenerator.php'     => array('page_name' => 'Signage Generator'),
 );
 
 $current_page  = basename($_SERVER['PHP_SELF']);
+$mainController  = ($_SERVER['PHP_SELF']);
+
+
+print_var($current_page);
+// print_var($mainController);
 
 ?>
 
@@ -16,23 +22,25 @@ $current_page  = basename($_SERVER['PHP_SELF']);
 <div class="container">
 
      <!-- Navigation ::: Navbar ::: Start -->
-     <div class="navbar navbar-default">
-          <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="<?php echo URL_WITH_INDEX_FILE ?>">SMG Online</a>
+     <div class="navbar navbar-inverse">
 
-          </div>
-          <div class="navbar-collapse collapse">
-               <ul class="nav navbar-nav">
+     	<div class="navbar-header">
+     		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+     			<span class="icon-bar"></span>
+     			<span class="icon-bar"></span>
+     			<span class="icon-bar"></span>
+     		</button>
+     		<!-- <a class="navbar-brand" href="<?php echo URL_WITH_INDEX_FILE ?>">SMG Online</a> -->
 
-                    <?php
+     	</div>
 
-                    # Output the formatted html
-                    foreach ($sidebar_links as $php_filename => $subarray):
+     	<div class="navbar-collapse collapse">
+     		<ul class="nav navbar-nav">
+
+     			<?php
+
+              	// Output the formatted html
+     			foreach ($sidebar_links as $php_filename => $subarray):
                          foreach ($subarray as $page_title):
 
                               $php_filename = substr($php_filename, 0, strlen($php_filename)-4);
@@ -54,25 +62,18 @@ $current_page  = basename($_SERVER['PHP_SELF']);
                </ul>
 
                <div class="navbar-form navbar-right">
-               	<span>Active Menu: Mindful II &nbsp;</span>
+               	<?php if (isset($_SESSION['active_menu'])): ?>
+               		<a class="btn btn-primary" href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/managemenus' ?>" role="button">Active Menu - <?php echo Session::getNested('active_menu', 'menu_name'); ?></a>
+               	<?php else: ?>
+               		<button class="btn btn-danger" type="submit">No Active Menu Selected</button>
+               	<?php endif; ?>
 
-                    <div class="form-group">
-                         <a class="btn btn-default" href="http://localhost/Learning-MVC/logout.php" role="button">Logout</a>
-                    </div>
+               	<div class="form-group">
+               		<a class="btn btn-danger" href="http://localhost/Learning-MVC/logout.php" role="button">Logout</a>
+               	</div>
                </div>
 
-          </div>
+           </div>
+           <!-- Navigation ::: Navbar Collapse ::: End -->
      </div>
      <!-- Navigation ::: Navbar ::: End -->
-
-     <!--
-     <div class="navigation">
-          <ul>
-               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>"><?php echo URL_WITH_INDEX_FILE; ?>home</a></li>
-               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>home/exampleone"><?php echo URL_WITH_INDEX_FILE; ?>home/exampleone</a></li>
-               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>home/exampletwo"><?php echo URL_WITH_INDEX_FILE; ?>home/exampletwo</a></li>
-               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>songs/"><?php echo URL_WITH_INDEX_FILE; ?>songs/index</a></li>
-               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>login/"><?php echo URL_WITH_INDEX_FILE; ?>login/index</a></li>
-          </ul>
-     </div>
-     -->

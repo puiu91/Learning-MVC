@@ -4,7 +4,7 @@
  * Login model
  * 
  */
-require(APP_PATH . '/models/MenuManagerModel.php');
+require(APP_PATH . '/models/SignageGeneratorModel.php');
 
 /**
  * Class MenuManager
@@ -13,7 +13,7 @@ require(APP_PATH . '/models/MenuManagerModel.php');
  *
  */
 
-class MenuManagerController
+class SignageGeneratorController
 {
 	public function __construct()
 	{
@@ -37,11 +37,11 @@ class MenuManagerController
         // sidebar
             // <row>
             // <col-sm-3></end-col>
-        require APP_PATH . 'views/menumanager/sidebar.php';
+        require APP_PATH . 'views/signagegenerator/_default/sidebar.php';
 
         // content
             // <col-sm-9></end-col>
-        require APP_PATH . 'views/menumanager/content.php';
+        require APP_PATH . 'views/signagegenerator/_default/content.php';
 
         // footer 
             // <footer></footer>
@@ -50,6 +50,51 @@ class MenuManagerController
             // </html>
         require APP_PATH . 'views/templates/footer.php';
     }
+
+    public function premade()
+    {
+		// header and navigation
+		require APP_PATH . 'views/templates/header_alt.php';
+		require APP_PATH . 'views/templates/navbar_alt.php';
+
+		// get data
+		// $MenuManagerModel = new MenuManagerModel;
+		// $addedMenus = $MenuManagerModel->retrieveAddedMenus();		
+
+		// content
+		require APP_PATH . 'views/signagegenerator/_default/sidebar.php';
+		require APP_PATH . 'views/signagegenerator/premade/content.php';
+
+		// footer
+		require APP_PATH . 'views/templates/footer.php';
+
+    }
+
+    public function custom()
+    {
+		// header and navigation
+		require APP_PATH . 'views/templates/header_alt.php';
+		require APP_PATH . 'views/templates/navbar_alt.php';
+
+		// get data
+		// $MenuManagerModel = new MenuManagerModel;
+		// $addedMenus = $MenuManagerModel->retrieveAddedMenus();		
+
+		// content
+		require APP_PATH . 'views/signagegenerator/_default/sidebar.php';
+		require APP_PATH . 'views/signagegenerator/custom/content.php';
+
+		// footer
+		require APP_PATH . 'views/templates/footer.php';
+    }
+
+
+
+
+
+
+
+
 
 	public function loadMenu()
 	{

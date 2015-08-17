@@ -32,7 +32,8 @@ class LoginController extends Controller
 	 * 
 	 * @return void
 	 */
-	public function index() {
+	public function index() 
+	{
 		require(APP_PATH . 'views/templates/login/header.php');
 		require(APP_PATH . 'views/login/login.php');
 	}
@@ -48,16 +49,13 @@ class LoginController extends Controller
 		$LoginModel = new LoginModel;
 
 		// store boolean representing if client credentials matched database record
-		$login_successful = $LoginModel->validateLoginForm($_POST);
+		$login = $LoginModel->validateLoginForm($_POST);
 
-		echobr("Login is:");
-		var_dump($login_successful);
-
-		if ($login_successful) {
-			// store in session
-			$_SESSION['logged_in'] = true;
+		if ($login) {
+			// store login status in session
+			Session::set('logged_in', true);
 			// redirect to dashboard
-			header('Location: ' . URL_WITH_INDEX_FILE);
+			header('Location: ' . URL_WITH_INDEX_FILE . 'index');
 		} else {
 			// redirect to login screen
 			header('Location: ' . URL_WITH_INDEX_FILE . 'login');

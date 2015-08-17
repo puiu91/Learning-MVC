@@ -1,8 +1,8 @@
 <?php
 
 $sidebar_receipts = array(
-	URL_WITH_INDEX_FILE . 'menumanager/loadmenu'    => array('page_name' => 'Add Menu'),
-	URL_WITH_INDEX_FILE . 'menumanager/managemenus' => array('page_name' => 'Manage Menus')
+	URL_WITH_INDEX_FILE . 'signagegenerator/premade' => array('page_name' => 'Premade Template'),
+	URL_WITH_INDEX_FILE . 'signagegenerator/custom'  => array('page_name' => 'Create Custom')
 );
 
 /**

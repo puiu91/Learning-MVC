@@ -1,4 +1,4 @@
-<div class="alert alert-danger fade in">
+<div class="alert alert-info fade in">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-	<strong>Warning!</strong> <?php echo $errorMessage; ?>
+	<strong>Alert !</strong> <?php echo $errorMessage; ?>
 </div>

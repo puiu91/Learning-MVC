@@ -1,8 +1,8 @@
 <?php
 
 $sidebar_receipts = array(
-	URL_WITH_INDEX_FILE . 'menumanager/loadmenu'    => array('page_name' => 'Add Menu'),
-	URL_WITH_INDEX_FILE . 'menumanager/managemenus' => array('page_name' => 'Manage Menus')
+	URL_WITH_INDEX_FILE . 'recipes/searchrecipes' => array('page_name' => 'Search Recipes'),
+	URL_WITH_INDEX_FILE . 'recipes/managerecipes' => array('page_name' => 'Manage Recipes')
 );
 
 /**

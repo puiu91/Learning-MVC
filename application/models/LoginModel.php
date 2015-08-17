@@ -19,7 +19,7 @@ class LoginModel
 	 * @return boolean 
 	 */
 	public function validateLoginForm($postData)
-	{
+	{	
 		if (empty($postData['username']) or empty($postData['password'])) {
 
 			Session::add('feedback_errors', ErrorMessage::get('ERROR_FIELD_IS_EMPTY'));
@@ -32,6 +32,8 @@ class LoginModel
 
 			// a row containing client supplied username was found and the client supplied password matches the bcrypt hash of the password from the database
 			if ($dbResult and password_verify($postData['password'], $dbResult['password'])) {
+				// store account id to session
+				Session::set('account_id', $dbResult['account_id']);
 				return true;
 			} else {
 				Session::add('feedback_errors', ErrorMessage::get('ERROR_INVALID_CREDENTIALS'));
@@ -49,7 +51,7 @@ class LoginModel
 	 */
 	public function retrieveCredentials($username) {
 		$statementHandler = Database::getInstance()->prepare(
-			"SELECT username, password
+			"SELECT username, password, account_id
              	 FROM   users
              	 WHERE  username = :username"
 		);

@@ -7,76 +7,76 @@
 
 				<?php View::displayFeedbackMessages(); ?>
 
-
-
-				<?php if (isset($addedMenus) and !empty($addedMenus)): ?>
-
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>Menu ID</th>
-								<th>Menu Name</th>
-								<th>Options</th>
-							</tr>
-						</thead>
-						<tbody>
-
-							<?php foreach ($addedMenus as $k => $v): ?>
-
-							<tr>
-								<th><p><? echo $v['menu_id'] ?></p></th>
-								<td><p><? echo $v['menu_name'] ?></p></td>
-								<td>
-									<a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/activatemenu/' . $v['menu_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Open Menu</button></a>
-									<a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/deletemenu/' . $v['menu_id']; ?>"><button type="button" class="btn btn-danger btn-xs">Delete Menu</button></a>
-								</td>
-								<!-- <td><a href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/loadmenuaction/' . $v['menu_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Open Menu</button></a></td> -->
-							</tr>
-
-							<?php endforeach; ?>
-
-						</tbody>
-					</table>
-
-				<?php else: ?>
-
-					<br>
-
-					<div class="alert alert-success fade in">
-						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-						<strong>Note!</strong> You need to add a menu prior to being able to manage it, <a href="loadmenu">click here to add a menu now</a>
+				<!-- Template Thumbnails ::: Start -->
+				<!-- Group 1 ::: Start -->
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="<?php echo URL . 'public/images/vertical_sign_holder.jpg'; ?>" alt="">
+							<div class="caption">
+								<h3>8.5" by 11" sign holder</h3>
+								<p>Use with 8.5" by 11" holder</p>
+								<p><a href="<?php echo URL_WITH_INDEX_FILE . 'signagegenerator/signage/8.5_by_11'; ?>" class="btn btn-primary" role="button">Load</a>
+							</div>
+						</div>						
 					</div>
 
-				<?php endif; ?>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="<?php echo URL . 'public/images/horizontal_sign_holder.jpg'; ?>" alt="">
+							<div class="caption">
+								<h3>3.5" by 2" sign holder</h3>
+								<p>Use with folding tabletop signage holder</p>
+								<p><a href="#" class="btn btn-primary disabled" role="button">Load</a>
+							</div>
+						</div>
+					</div>
 
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="<?php echo URL . 'public/images/6_by_4_sign_holder.jpg'; ?>" alt="">
+							<div class="caption">
+								<h3>6" by 4" sign holder</h3>
+								<p>Use with folding tabletop signage holder</p>
+								<p><a href="#" class="btn btn-primary disabled" role="button">Load</a>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<!-- Group 1 ::: End -->
 
+				<br>
+
+				<!-- Group 2 ::: Start -->
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="<?php echo URL . 'public/images/6_by_12_sign_holder.jpg'; ?>" alt="">
+							<div class="caption">
+								<h3>6" by 12" sign holder</h3>
+								<p>Use with folding tabletop signage holder</p>
+								<p><a href="#" class="btn btn-primary disabled" role="button">Load</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="<?php echo URL . 'public/images/6_by_4_sign_holder.jpg'; ?>" alt="">
+							<div class="caption">
+								<h3>6" by 4" sign holder</h3>
+								<p>Use with folding tabletop signage holder</p>
+								<p><a href="#" class="btn btn-primary disabled" role="button">Load</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Group 2 ::: End -->
+				<!-- Template Thumbnails ::: End -->
+
+				<?php View::displayFeedbackMessages(); ?>
 
 			</div>
-
-			<!--
-			<div class="well-main">
-				<h2>Custom Made Menus</h2>
-				<hr>
-
-
-				<table class="table table-striped">
-					<thead>
-						<tr>
-							<th>#</th>
-							<th>Menu Name</th>
-							<th>Options</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td></td>							
-							<td>Nothing to display, feature not implemented yet</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-
-			</div>
-			-->
+			<!-- Well Main ::: End -->
 
 		</div>

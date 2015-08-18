@@ -7,8 +7,6 @@
 
 				<?php View::displayFeedbackMessages(); ?>
 
-
-
 				<?php if (isset($addedMenus) and !empty($addedMenus)): ?>
 
 					<table class="table table-striped">

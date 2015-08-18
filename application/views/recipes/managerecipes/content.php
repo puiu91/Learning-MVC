@@ -7,8 +7,6 @@
 
 				<?php View::displayFeedbackMessages(); ?>
 
-
-
 				<?php if (isset($recipes) and !empty($recipes)): ?>
 
 					<table class="table table-striped">
@@ -30,7 +28,7 @@
 								<td><p><? echo $v['recipe_name'] ?></p></td>
 								<td>
 									<a href="<?php echo URL_WITH_INDEX_FILE . 'recipes/removeRecipeAction/' . $v['recipe_id']; ?>"><button type="button" class="btn btn-danger btn-xs">Remove Recipe</button></a>
-									<a href="<?php echo URL_WITH_INDEX_FILE . 'recipes/removeRecipeAction/' . $v['recipe_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Create Signage</button></a>
+									<a href="<?php echo URL_WITH_INDEX_FILE . 'recipes/createSignage/' . $v['recipe_id']; ?>"><button type="button" class="btn btn-primary btn-xs">Create Signage</button></a>
 								</td>
 							</tr>
 

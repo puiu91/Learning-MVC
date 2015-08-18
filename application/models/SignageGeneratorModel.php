@@ -138,7 +138,23 @@ class SignageGeneratorModel
 	}
 
 
+	public function retrieveRecipes()
+	{
+		$statementHandler = Database::getInstance()->prepare(
+			"SELECT
+				id, recipe_name, calories, saturated_fat, total_fat, protein, sugars, cholesterol
+			 FROM 
+			 	recipes
+			 WHERE 
+			 	id = :recipe_id"
+		);
 
+		$statementHandler->execute(array(
+			':recipe_id'    => Session::get('recipe_generate_signage'),
+		));
+
+		return $statementHandler->fetchAll(PDO::FETCH_ASSOC);		
+	}
 
 
 

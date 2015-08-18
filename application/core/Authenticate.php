@@ -16,6 +16,21 @@ class Authenticate
 			exit();
 		}
 	}
+
+	public static function menuIsActive()
+	{
+		if (!Session::getNested('active_menu', 'menu_id')) {
+			// destroy session
+			// Session::destroy();
+			// 
+			// create error message
+			Session::add('feedback_errors', ErrorMessage::get('MENU_NOT_ACTIVE'));
+			// redirect to menu selection screen
+			header('Location: ' . URL_WITH_INDEX_FILE . 'menumanager/managemenus');
+			exit();
+		}
+	}
+
 }
 
 ?>

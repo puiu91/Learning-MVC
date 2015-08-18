@@ -63,7 +63,7 @@ print_var($current_page);
 
                <div class="navbar-form navbar-right">
                	<?php if (isset($_SESSION['active_menu'])): ?>
-               		<a class="btn btn-primary" href="<?php echo URL_WITH_INDEX_FILE . 'menumanager/managemenus' ?>" role="button">Active Menu - <?php echo Session::getNested('active_menu', 'menu_name'); ?></a>
+               		<a class="btn btn-primary" href="<?php echo URL_WITH_INDEX_FILE . 'recipes/managerecipes' ?>" role="button">Active Menu - <?php echo Session::getNested('active_menu', 'menu_name'); ?></a>
                	<?php else: ?>
                		<button class="btn btn-danger" type="submit">No Active Menu Selected</button>
                	<?php endif; ?>

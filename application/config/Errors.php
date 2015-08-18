@@ -14,7 +14,11 @@ return array(
 	"MENU_ACTIVATED" => "Menu is now active throughout workspace",
 	"RECIPE_ADDED_TO_MENU" => "Recipe has been added to menu",
 	"RECIPE_REMOVED_FROM_MENU" => "Recipe has been removed from the active menu",
+	"GENERATE_SIGNAGE_FOR_RECIPE" => "You have selected a recipe to create signage for - before modifying it, please select a template below",
+	"MENU_NOT_ACTIVE" => "Please select a menu prior to accessing other site features",
+
 
 );
 
 ?>
+

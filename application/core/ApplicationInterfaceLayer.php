@@ -29,7 +29,7 @@ class ApplicationInterfaceLayer
 		 * Debugging
 		 */
 		
-		print_var(URL_WITH_INDEX_FILE);
+		// print_var(URL_WITH_INDEX_FILE);
 
 		$debug = 0;
 
@@ -80,7 +80,7 @@ class ApplicationInterfaceLayer
 					$this->urlController->{$this->urlMethod}($this->urlParameter);
 
 					//debug 
-					echo('<br>' . 'Requested Parameters: ' . $this->urlParameter . '<br>');
+					// echo('<br>' . 'Requested Parameters: ' . $this->urlParameter . '<br>');
 
 				} else {
 					$this->urlController->{$this->urlMethod}();

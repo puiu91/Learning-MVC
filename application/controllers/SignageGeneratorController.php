@@ -24,7 +24,11 @@ class SignageGeneratorController
      * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
      */
     public function index()
-    {
+    {	
+    	// check if user has an active menu
+    	
+    	Authenticate::menuIsActive();
+
         // header
         require APP_PATH . 'views/templates/header_alt.php';
 
@@ -86,6 +90,29 @@ class SignageGeneratorController
 
 		// footer
 		require APP_PATH . 'views/templates/footer.php';
+    }
+
+
+    public function signage($parameter) 
+    {
+    	print_var($parameter);
+
+		// header and navigation
+		require APP_PATH . 'views/templates/header_alt.php';
+		require APP_PATH . 'views/templates/navbar_alt.php';    
+
+		// load recipe information
+		$SignageGeneratorModel = new SignageGeneratorModel;
+		$recipe_information = $SignageGeneratorModel->retrieveRecipes();
+
+		// print_var($recipe_information);
+		// print_var(Session::get('recipe_generate_signage'));
+
+    	// content
+    	require APP_PATH . 'views/signagegenerator/signage/8.5_by_11.php';
+
+		// footer
+		require APP_PATH . 'views/templates/footer.php';    	
     }
 
 

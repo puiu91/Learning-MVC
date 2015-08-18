@@ -23,6 +23,9 @@ class RecipesController
      */
     public function index()
     {
+    	// check if user has an active menu
+    	Authenticate::menuIsActive();
+    	
         // header
         require APP_PATH . 'views/templates/header_alt.php';
 
@@ -132,6 +135,18 @@ class RecipesController
     	// redirect
     	Session::add('feedback_errors', ErrorMessage::get('RECIPE_REMOVED_FROM_MENU'));
 		Helper::redirect('recipes/manageRecipes'); 
+    }
+
+    public function createSignage($parameter)
+    {
+    	// store recipe id in the session of the recipe item that client wants to generate signage for
+    	Session::set('recipe_generate_signage', $parameter);
+
+    	// create message letting user know that they have been redirected 
+    	Session::add('feedback_errors', ErrorMessage::get('GENERATE_SIGNAGE_FOR_RECIPE'));
+
+    	// redirect user to signage
+    	Helper::redirect('signagegenerator/premade');
     }
 
 

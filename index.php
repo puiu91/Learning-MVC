@@ -60,7 +60,7 @@ Session::initialize();
 
 // $_SESSION['logged_in'] = false;
 // $_SESSION['logged_in'] = true;
-print_var($_SESSION);
+// print_var($_SESSION);
 
 // checks login 
 // if ($_SESSION['logged_in'] == false) {
